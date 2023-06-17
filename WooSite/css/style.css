@@ -1,0 +1,11 @@
+@import "reset.css";
+@import "header-menu.css";
+@import "main-menu.css";
+@import "slider-show.css";
+@import "login.css";
+@import "info-create.css";
+
+body { 
+    color: #2e363e;
+    font-family: 'Open Sans', sans-serif;
+}

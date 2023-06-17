@@ -1,0 +1,87 @@
+.create-account_content{
+    position: relative; 
+    width: 100%; 
+    height: 400px; 
+    margin: 0 auto
+}
+.create-account_main h2{
+    text-align: center;
+    border-bottom: solid 1px #dddddd; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    
+}
+
+.create-account_main{
+    width: 600px;	
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.create-account_form{
+    
+    display: flex;
+}
+
+.create-account_input input {
+    
+    font-size: 18px;
+    
+    border: none;
+    
+}
+.create-account_input{
+    width: 600px;
+    font-size: 18px;
+    padding: 15px 0px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out;
+}
+.create-account_input input:focus{
+    border-color: #383134;
+}
+.create-account_input::placeholder{
+    color:rgba(0, 0, 0, 0.4);
+}
+.create-account_input input:not([name="email1"],[name="email2"],[name="id"]){
+    width:600px;
+
+}
+.create-account_input input[name="email1"],[name="email2"]{
+    width:290px;
+
+}
+.create-account_input input[name="id"]{
+    width:500px;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+#check-id_btn{
+    background-color: #383134;
+    color: #f2f2f2;
+    cursor: pointer;
+    width: 90px;
+    height: 50px;
+    padding: 10px 1px;
+    border-radius: 5px;
+    margin:0 20px;
+    margin-top: 10px;
+}
+.create-account_content input[type="button"]{
+    background-color: #383134;
+    color: #f2f2f2;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 290px;
+    justify-content: flex-end;
+}
+
